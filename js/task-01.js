@@ -9,6 +9,7 @@ items.forEach((item) => {
     const elementsEl = document.querySelector('.item');
     console.log(`Elements: ${quantityEl.length}`);
     
+    
 });
 
 
