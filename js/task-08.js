@@ -12,9 +12,9 @@ function onFormSubmit(event) {
         email,
         password,
     };
-    console.log(FormData);
     if (email === "" || password === "") {
     return alert("Please fill in all the fields!");
     };
+    console.log(FormData);
     form.reset();
 }
